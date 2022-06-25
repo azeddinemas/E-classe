@@ -1,0 +1,41 @@
+/*start sidebar*/
+
+a.nav-link.text-black:hover {
+    background-color: #00C1FE;
+    border-radius: 8px;
+}
+
+#toggel hr {
+    visibility: hidden;
+}
+
+#menu {
+    display: none;
+}
+
+#label {
+    display: none;
+}
+
+.container-fluid #menu:checked+#toggel {
+    display: none;
+}
+
+@media (max-width:991px) {
+    .container-fluid #toggel {
+        margin-left: -760px;
+        position: absolute;
+        transition: 0.8s;
+        z-index: 1;
+    }
+    .container-fluid #menu:checked+#toggel {
+        margin-left: 0px;
+        transition: 0.8s;
+    }
+    #label {
+        display: block;
+    }
+}
+
+
+/*end sidebar*/

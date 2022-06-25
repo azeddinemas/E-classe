@@ -1,0 +1,53 @@
+/*start sidebar*/
+
+a.nav-link.text-black:hover {
+    background-color: #00C1FE;
+    border-radius: 8px;
+}
+
+#menu {
+    display: none;
+}
+
+#label {
+    display: none;
+}
+
+@media (max-width:1100px) {
+    .container-fluid #toggel {
+        margin-left: -760px;
+        position: absolute;
+        transition: 0.8s;
+        z-index: 1;
+    }
+    .container-fluid #menu:checked+#toggel {
+        margin-left: 0px;
+        transition: 0.8s;
+    }
+    #label {
+        display: block;
+    }
+}
+
+
+/*end sidebar*/
+
+
+/*start students*/
+
+.form {
+    display: none;
+}
+
+#adds:checked+.form {
+    display: block;
+}
+
+@media (max-width:991px) {
+    form#form {
+        flex-direction: column;
+    }
+}
+
+
+/*start students*/

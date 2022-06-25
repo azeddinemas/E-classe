@@ -1,0 +1,32 @@
+[
+    {
+        "name": "username",
+        "email": "user@email.com",
+        "phone": "7305477760",
+        "enroll_number": "1234567305477760",
+        "date_of_admission": "08-Dec, 2021"
+    },
+    {
+        "name": "username",
+        "email": "user@email.com",
+        "phone": "7305477760",
+        "enroll_number": "1234567305477760",
+        "date_of_admission": "08-Dec, 2021"
+    },
+    {
+        "id": "61f7b3f8973d4",
+        "name": "username",
+        "email": "user@email.com",
+        "phone": "7305477760",
+        "enroll_number": "1234567305477760",
+        "date_of_admission": "2022-01-21"
+    },
+    {
+        "id": "61f7bc6d6e3f3",
+        "name": "maslou",
+        "email": "mdine@gmail.com",
+        "phone": "062107920",
+        "enroll_number": "-1",
+        "date_of_admission": "2022-01-13"
+    }
+]
